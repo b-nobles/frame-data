@@ -227,11 +227,121 @@ export default function App() {
     }
   };
 
+  const  chunli= {
+    name: "Chun-Li",
+    sLP: {
+      name: "Standing Light Punch",
+      startup: 4,
+      onblock: -3,
+      image: "/src/assets/chunli/sLP.png",
+    },
+    sMP: {
+      name: "Standing Medium Punch",
+      startup: 5,
+      onblock: 1,
+      image: "/src/assets/chunli/sMP.png",
+    },
+    sHP: {
+      name: "Standing Heavy Punch",
+      startup: 13,
+      onblock: -4,
+      image: "/src/assets/chunli/sHP.png",
+    },
+    sLK: {
+      name: "Standing Light Kick",
+      startup: 5,
+      onblock: -2,
+      image: "/src/assets/chunli/sLK.png",
+    },
+    sMK: {
+      name: "Standing Medium Kick",
+      startup: 7,
+      onblock: -2,
+      image: "/src/assets/chunli/sMK.png",
+    },
+    sHK: {
+      name: "Standing Heavy Kick",
+      startup: 14,
+      onblock: 0,
+      image: "/src/assets/chunli/sHK.png",
+    },
+    crLP: {
+      name: "Crouching Light Punch",
+      startup: 4,
+      onblock: -2,
+      image: "/src/assets/chunli/crLP.png",
+    },
+    crMP: {
+      name: "Crouching Medium Punch",
+      startup: 6,
+      onblock: -2,
+      image: "/src/assets/chunli/crMP.png",
+    },
+    crHP: {
+      name: "Crouching Heavy Punch",
+      startup: 11,
+      onblock: -3,
+      image: "/src/assets/chunli/crHP.png",
+    },
+    crLK: {
+      name: "Crouching Light Kick",
+      startup: 4,
+      onblock: -2,
+      image: "/src/assets/chunli/crLK.png",
+    },
+    crMK: {
+      name: "Crouching Medium Kick",
+      startup: 7,
+      onblock: -6,
+      image: "/src/assets/chunli/crMK.png",
+    },
+    crHK: {
+      name: "Crouching Heavy Kick",
+      startup: 9,
+      onblock: -7,
+      image: "/src/assets/chunli/crHK.png",
+    },
+
+    commands: {
+	"bMP or fMP": {
+		name: "Swift Thrust",
+		startup: 7,
+		onblock: -3,
+		image: "src/assets/chunli/bMPorfMP.png",
+	},
+	"bHP": {
+		name: "Hakkei",
+		startup: 8,
+		onblock: -1,
+		image: "src/assets/chunli/bHP.png",
+	},
+	"dfHP": {
+		name: "Water Lotus Fist",
+		startup: 21,
+		onblock: -2,
+		image: "src/assets/chunli/dfHP.png",
+	},
+	"fHK": {
+		name: "Yokusen Kick",
+		startup: 16,
+		onblock: -4,
+		image: "src/assets/chunli/fHK.png",
+	},
+	"dfHK": {
+		name: "Falling Crane",
+		startup: 37,
+		onblock: 5,
+		image: "src/assets/chunli/dfHK.png",
+	}
+    },
+	profile: "src/assets/chunli/profile.png"
+  }
+
   const [newMove, setNewMove] = useState("sLP");
   const [attackChar, setAttackChar] = useState(ryu);
   const [blockChar, setBlockChar] = useState(ryu);
   const [newText, setNewText] = useState("");
-  const characterList = [ryu, ken];
+  const characterList = [ryu, ken, chunli];
   const attackButtons = ["LP", "MP", "HP", "LK", "MK", "HK"]
   const [activeButton, setActiveButton] = useState("LP")
   let pressedButton = "LP"
@@ -294,7 +404,13 @@ export default function App() {
     if (attackingState === 'normals') {
       attackerMove = attackChar[attack].onblock
     } else if (attackingState + menuState === 'uniquecommand normals') {
-      attackerMove = attackChar.commands[command].onblock
+      const commandNormals = Object.keys(attackChar.commands)
+      if (commandNormals.includes(command)) {
+        attackerMove = attackChar.commands[command].onblock
+      } else {
+        attackerMove = attackChar.commands[commandNormals[0]].onblock
+      }
+      
     } else if (attackingState + menuState === 'uniquetarget combos') {
       const targetCombos = Object.keys(attackChar.targets)
       if (targetCombos.includes(target)) {
@@ -340,20 +456,11 @@ export default function App() {
     });
   }
 
-  //Check if a character has target combos or command normals
-  function attackMenu(attacker) {
-    const list = Object.keys(attacker);
-    const results = []
-    if (list.includes('targets')) {
-      results.push('Target Combos')
-    }
-    if (list.includes('commands')) {
-      results.push('Command Normals')
-    }
-    return results.map((name) => {
-      return <option key={name}>{name}</option>
-    })
-  }
+  //find the first move in a child object in the character
+  function firstMove(list) {
+    const moves = Object.keys(list)
+    return moves[0];
+  }  
 
   //map moves into a dropdown
   function attacksFill(items) {
@@ -387,27 +494,64 @@ export default function App() {
         currentAttacker = characterList[check]
       }
     }
+    let firstTargetCombo = ''
+    let firstCommandNormal = ''
+    if (currentAttacker.targets) {
+      const targetCombos = Object.keys(currentAttacker.targets)
+      firstTargetCombo = targetCombos[0]
+    }
+
+    if (currentAttacker.commands) {
+      const commandNormals = Object.keys(currentAttacker.commands)
+      firstCommandNormal = commandNormals[0]
+    }
+
+    if (attackChar.targets && attackChar.commands) {
+      setNewCommand(attackChar.commands[firstCommandNormal])
+      setNewTarget(attackChar.targets[firstTargetCombo])
+    }
+
     if (attackingState === 'normals') {
       setNewImage(currentAttacker[newMove].image);
+      if (currentAttacker.targets && currentAttacker.commands) {
+        
+      }
     } else if (attackingState === 'unique') {
-      setNewMenuState('target combos')
-      const targetCombos = Object.keys(currentAttacker.targets)
-      setNewImage(currentAttacker.targets[targetCombos[0]].image)
+
+      if (menuState === 'target combos' && currentAttacker.targets) {
+        setNewTarget(currentAttacker.targets[firstTargetCombo])
+        setNewImage(currentAttacker.targets[firstTargetCombo].image)
+      } else if (menuState === 'target combos' && !currentAttacker.targets) {
+        setNewMenuState('command normals')
+        setNewCommand(currentAttacker.commands[firstCommandNormal])
+        setNewImage(currentAttacker.commands[firstCommandNormal].image)
+      } else if (menuState === 'command normals' && currentAttacker.commands) {
+        setNewCommand(currentAttacker.commands[firstCommandNormal])
+        setNewImage(currentAttacker.commands[firstCommandNormal].image)
+      } else if (menuState === 'command normals' && !currentAttacker.commands) {
+        setNewMenuState('target combos')
+        setNewTarget(currentAttacker.targets[firstTargetCombo])
+        setNewImage(currentAttacker.targets[firstTargetCombo].image)
+      }
     }
       //find the appropriate character using their name
       lookUpCharacter(setAttackChar, e.target.value)
-      console.log(target + ' ' + command)
   }
 
   //update menu state to change the corresponding drop down
   function handleMenuChange(e) {
     const menuText = e.target.value.toLowerCase();
-    console.log(menuText)
     setNewMenuState(menuText)
     setNewText("")
     if (menuText === 'command normals') {
-      setNewImage(attackChar.commands[command].image)
+      const commandNormals = Object.keys(attackChar.commands)
+      if (!commandNormals.includes(command)) {
+        setNewImage(attackChar.commands[commandNormals[0]].image)
+      } else {
+        setNewImage(attackChar.commands[command].image)
+      }
     } else if (menuText === 'target combos') {
+      //check here if target combo images are weird
       const targetCombos = Object.keys(attackChar.targets)
       if (!targetCombos.includes(target)) {
         setNewImage(attackChar.targets[targetCombos[0]].image)
@@ -415,19 +559,56 @@ export default function App() {
         setNewImage(attackChar.targets[target].image)
       }
     }
+    
   }
 
-  //image resetting function to account for faulty target combos
-  function imageReset() {
-    const targetCombos = Object.keys(attackChar.targets)
-    if (!targetCombos.includes(target)) {
-      setNewTarget(targetCombos[0])
-      setNewImage(attackChar.targets[targetCombos[0]].image)
-    } else {
-      setNewImage(attackChar.targets[target].image)
+  //Check if there needs to be target combos or command normals depending on the character
+  function handleReset() {
+    setNewAttackingState('unique')
+    let commandNormals = []
+    let targetCombos = []
+    if (attackChar.commands) {
+      commandNormals = Object.keys(attackChar.commands)
     }
+    if (attackChar.targets) {
+      targetCombos = Object.keys(attackChar.targets)
+    }
+    
+    if (attackChar.targets && attackChar.commands) {
+      if (menuState === 'target combos') {
+        if (targetCombos.includes(target)) {
+          setNewImage(attackChar.targets[target].image)
+        } else {
+          setNewImage(attackChar.targets[targetCombos[0]].image)
+        }
+      } else if (menuState === 'command normals') {
+        if (commandNormals.includes(command)) {
+          setNewImage(attackChar.commands[command].image)
+        } else {
+          setNewImage(attackChar.commands[commandNormals[0]].image)
+        }
+        
+      }
+    } else if (attackChar.targets) {
       setNewMenuState('target combos')
-      setNewText("");
+      const targetCombos = Object.keys(attackChar.targets)
+      if (targetCombos.includes(target)) {
+        setNewImage(attackChar.targets[target].image)
+      } else {
+        setNewTarget(attackChar.targets[targetCombos[0]])
+        setNewImage(attackChar.targets[targetCombos[0]].image)
+      }
+    } else if (attackChar.commands) {
+      setNewMenuState('command normals')
+      const commandNormals = Object.keys(attackChar.commands)
+      if (commandNormals.includes(command)) {
+        setNewImage(attackChar.commands[command].image)
+      } else {
+        setNewCommand(attackChar.commands[commandNormals[0]])
+        setNewImage(attackChar.commands[commandNormals[0]].image)
+      }
+    }
+    setNewText("");
   }
 
   //change the blocker and update blocker movelist
@@ -452,7 +633,7 @@ export default function App() {
   function textLoad(prop) {
     if (attackingState === 'normals') {
       return attackChar[newMove][prop];
-    } else if (attackingState + menuState === 'uniquetarget combos') {
+    } else if (attackingState + menuState === 'uniquetarget combos' && attackChar.targets) {
       const targetCombos = Object.keys(attackChar.targets)
       if (targetCombos.includes(target)) {
         return attackChar.targets[target][prop]
@@ -460,9 +641,15 @@ export default function App() {
         return attackChar.targets[targetCombos[0]][prop]
       }
       
-    } else if (attackingState + menuState === 'uniquecommand normals') {
+    } else if (attackingState + menuState === 'uniquecommand normals' && attackChar.commands) {
       //IF THERE IS AN ISSUE WITH COMMAND NORMALS NOT MATCHING UP COME BACK HERE
-      return attackChar.commands[command][prop]
+      const commandNormals = Object.keys(attackChar.commands)
+      if (commandNormals.includes(command)) {
+        return attackChar.commands[command][prop]
+      } else {
+        return attackChar.commands[commandNormals[0]][prop]
+      }
+      
     }
   }
 
@@ -490,11 +677,12 @@ export default function App() {
       <label htmlFor="standing">Standing</label>
       <input type="radio" id="crouching" name="direction" value="cr" onClick={directionSelect} onChange={() => (activeState("cr", 1), switchState('cr'))}/>
       <label htmlFor="crouching">Crouching</label>
-      <input type="radio" id="unique" name="direction" value='command' onChange={() => (setNewAttackingState('unique'), imageReset())}/>
+      <input type="radio" id="unique" name="direction" value='command' onChange={() => (handleReset())}/>
       <label htmlFor="unique">Unique</label>
       <br />
       <select name="move-options" id="move-options" hidden={(attackingState !== 'unique')} onChange={handleMenuChange}>
-        {attackMenu(attackChar)}
+        <option value="target combos" hidden={(!attackChar.targets)} selected={(menuState === "target combos")}>Target Combos</option>
+        <option value="command normals" hidden={(!attackChar.commands)} selected={(menuState === "command normals")}>Command Normals</option>
       </select>
       <select name="commands" id="commands" hidden={(attackingState + menuState !== 'uniquecommand normals')} onChange={handleUniqueChange}>
         {attacksFill(attackChar.commands)}
