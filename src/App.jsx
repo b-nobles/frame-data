@@ -1,347 +1,11 @@
 import { useState } from "react";
+import { characterList } from "./CharacterList";
 
 export default function App() {
-  const ryu = {
-    name: "Ryu",
-    sLP: {
-      name: "Standing Light Punch",
-      startup: 4,
-      onblock: -1,
-      image: "/src/assets/ryu/sLP.png",
-    },
-    sMP: {
-      name: "Standing Medium Punch",
-      startup: 6,
-      onblock: -1,
-      image: "/src/assets/ryu/sMP.png",
-    },
-    sHP: {
-      name: "Standing Heavy Punch",
-      startup: 10,
-      onblock: -2,
-      image: "/src/assets/ryu/sHP.png",
-    },
-    sLK: {
-      name: "Standing Light Kick",
-      startup: 5,
-      onblock: -4,
-      image: "/src/assets/ryu/sLK.png",
-    },
-    sMK: {
-      name: "Standing Medium Kick",
-      startup: 9,
-      onblock: -4,
-      image: "/src/assets/ryu/sMK.png",
-    },
-    sHK: {
-      name: "Standing Heavy Kick",
-      startup: 12,
-      onblock: 1,
-      image: "/src/assets/ryu/sHK.png",
-    },
-    crLP: {
-      name: "Crouching Light Punch",
-      startup: 4,
-      onblock: -1,
-      image: "/src/assets/ryu/crLP.png",
-    },
-    crMP: {
-      name: "Crouching Medium Punch",
-      startup: 6,
-      onblock: 0,
-      image: "/src/assets/ryu/crMP.png",
-    },
-    crHP: {
-      name: "Crouching Heavy Punch",
-      startup: 9,
-      onblock: -7,
-      image: "/src/assets/ryu/crHP.png",
-    },
-    crLK: {
-      name: "Crouching Light Kick",
-      startup: 5,
-      onblock: -3,
-      image: "/src/assets/ryu/crLK.png",
-    },
-    crMK: {
-      name: "Crouching Medium Kick",
-      startup: 8,
-      onblock: -6,
-      image: "/src/assets/ryu/crMK.png",
-    },
-    crHK: {
-      name: "Crouching Heavy Kick",
-      startup: 9,
-      onblock: -12,
-      image: "/src/assets/ryu/crHK.png",
-    },
-    targets: {
-      "sHP>HK": {
-        name: "High Double Strike",
-        startup: 19,
-        onblock: -8,
-        image: "/src/assets/ryu/sHPHK.png"
-      },
-      "sMP>LK": {
-        name: "Fuwa Double Strike",
-        startup: 11,
-        onblock: -7,
-        image: "/src/assets/ryu/sMPLK.png"
-      },
-      "sMP>LK>HK": {
-        name: "Fuwa Triple Strike",
-        startup: 27,
-        onblock: -8,
-        image: "/src/assets/ryu/sMPLKHK.png"
-      }
-    },
-    commands: {
-      fMP: {
-      name: "Collarbone Breaker",
-      startup: 20,
-      onblock: -3,
-      image: "/src/assets/ryu/fMP.png",
-    },
-     fHP: {
-      name: "Solar Plexus Strike",
-      startup: 20,
-      onblock: 1,
-      image: "src/assets/ryu/fHP.png",
-    },
-     bHP: {
-      name: "Short Uppercut",
-      startup: 7,
-      onblock: -13,
-      image: "src/assets/ryu/bHP.png",
-    },
-     fHK: {
-      name: "Whirlwind Kick",
-      startup: 16,
-      onblock: -4,
-      image: "src/assets/ryu/fHK.png",
-    },
-     bHK: {
-      name: "Axe Kick",
-      startup: 10,
-      onblock: -4,
-      image: "src/assets/ryu/bHK.png",
-    }
-  },
-    profile: "src/assets/ryu/profile.png"
-  };
-
-  const ken = {
-    name: "Ken",
-    sLP: {
-      name: "Standing Light Punch",
-      startup: 4,
-      onblock: -1,
-      image: "/src/assets/ken/sLP.png",
-    },
-    sMP: {
-      name: "Standing Medium Punch",
-      startup: 5,
-      onblock: -2,
-      image: "/src/assets/ken/sMP.png",
-    },
-    sHP: {
-      name: "Standing Heavy Punch",
-      startup: 10,
-      onblock: -2,
-      image: "/src/assets/ken/sHP.png",
-    },
-    sLK: {
-      name: "Standing Light Kick",
-      startup: 5,
-      onblock: -2,
-      image: "/src/assets/ken/sLK.png",
-    },
-    sMK: {
-      name: "Standing Medium Kick",
-      startup: 8,
-      onblock: -5,
-      image: "/src/assets/ken/sMK.png",
-    },
-    sHK: {
-      name: "Standing Heavy Kick",
-      startup: 12,
-      onblock: -5,
-      image: "/src/assets/ken/sHK.png",
-    },
-    crLP: {
-      name: "Crouching Light Punch",
-      startup: 4,
-      onblock: -1,
-      image: "/src/assets/ken/crLP.png",
-    },
-    crMP: {
-      name: "Crouching Medium Punch",
-      startup: 6,
-      onblock: 0,
-      image: "/src/assets/ken/crMP.png",
-    },
-    crHP: {
-      name: "Crouching Heavy Punch",
-      startup: 8,
-      onblock: -10,
-      image: "/src/assets/ken/crHP.png",
-    },
-    crLK: {
-      name: "Crouching Light Kick",
-      startup: 5,
-      onblock: -3,
-      image: "/src/assets/ken/crLK.png",
-    },
-    crMK: {
-      name: "Crouching Medium Kick",
-      startup: 7,
-      onblock: -6,
-      image: "/src/assets/ken/crMK.png",
-    },
-    crHK: {
-      name: "Crouching Heavy Kick",
-      startup: 8,
-      onblock: -10,
-      image: "/src/assets/ken/crHK.png",
-    },
-    profile: "/src/assets/ken/profile.png",
-    targets: {
-      "sMP>HP": {
-        name: "Chin Buster",
-        startup: 16,
-        onblock: -14,
-        image: "/src/assets/ken/sMPHP.png"
-      },
-      "sMK>MK": {
-        name: "Triple Flash Kicks 1",
-        startup: 19,
-        onblock: -12,
-        image: "/src/assets/ken/sMKMK.png"
-      },
-      "sMK>MK>HK": {
-        name: "Triple Flash Kicks 2",
-        startup: 32,
-        onblock: -11,
-        image: "/src/assets/ken/sMKMKHK.png"
-      }
-    }
-  };
-
-  const  chunli= {
-    name: "Chun-Li",
-    sLP: {
-      name: "Standing Light Punch",
-      startup: 4,
-      onblock: -3,
-      image: "/src/assets/chunli/sLP.png",
-    },
-    sMP: {
-      name: "Standing Medium Punch",
-      startup: 5,
-      onblock: 1,
-      image: "/src/assets/chunli/sMP.png",
-    },
-    sHP: {
-      name: "Standing Heavy Punch",
-      startup: 13,
-      onblock: -4,
-      image: "/src/assets/chunli/sHP.png",
-    },
-    sLK: {
-      name: "Standing Light Kick",
-      startup: 5,
-      onblock: -2,
-      image: "/src/assets/chunli/sLK.png",
-    },
-    sMK: {
-      name: "Standing Medium Kick",
-      startup: 7,
-      onblock: -2,
-      image: "/src/assets/chunli/sMK.png",
-    },
-    sHK: {
-      name: "Standing Heavy Kick",
-      startup: 14,
-      onblock: 0,
-      image: "/src/assets/chunli/sHK.png",
-    },
-    crLP: {
-      name: "Crouching Light Punch",
-      startup: 4,
-      onblock: -2,
-      image: "/src/assets/chunli/crLP.png",
-    },
-    crMP: {
-      name: "Crouching Medium Punch",
-      startup: 6,
-      onblock: -2,
-      image: "/src/assets/chunli/crMP.png",
-    },
-    crHP: {
-      name: "Crouching Heavy Punch",
-      startup: 11,
-      onblock: -3,
-      image: "/src/assets/chunli/crHP.png",
-    },
-    crLK: {
-      name: "Crouching Light Kick",
-      startup: 4,
-      onblock: -2,
-      image: "/src/assets/chunli/crLK.png",
-    },
-    crMK: {
-      name: "Crouching Medium Kick",
-      startup: 7,
-      onblock: -6,
-      image: "/src/assets/chunli/crMK.png",
-    },
-    crHK: {
-      name: "Crouching Heavy Kick",
-      startup: 9,
-      onblock: -7,
-      image: "/src/assets/chunli/crHK.png",
-    },
-
-    commands: {
-	"bMP or fMP": {
-		name: "Swift Thrust",
-		startup: 7,
-		onblock: -3,
-		image: "src/assets/chunli/bMPorfMP.png",
-	},
-	"bHP": {
-		name: "Hakkei",
-		startup: 8,
-		onblock: -1,
-		image: "src/assets/chunli/bHP.png",
-	},
-	"dfHP": {
-		name: "Water Lotus Fist",
-		startup: 21,
-		onblock: -2,
-		image: "src/assets/chunli/dfHP.png",
-	},
-	"fHK": {
-		name: "Yokusen Kick",
-		startup: 16,
-		onblock: -4,
-		image: "src/assets/chunli/fHK.png",
-	},
-	"dfHK": {
-		name: "Falling Crane",
-		startup: 37,
-		onblock: 5,
-		image: "src/assets/chunli/dfHK.png",
-	}
-    },
-	profile: "src/assets/chunli/profile.png"
-  }
-
   const [newMove, setNewMove] = useState("sLP");
-  const [attackChar, setAttackChar] = useState(ryu);
-  const [blockChar, setBlockChar] = useState(ryu);
+  const [attackChar, setAttackChar] = useState(characterList[16]);
+  const [blockChar, setBlockChar] = useState(characterList[16]);
   const [newText, setNewText] = useState("");
-  const characterList = [ryu, ken, chunli];
   const attackButtons = ["LP", "MP", "HP", "LK", "MK", "HK"]
   const [activeButton, setActiveButton] = useState("LP")
   let pressedButton = "LP"
@@ -451,9 +115,28 @@ export default function App() {
   function characterFill() {
     return characterList.map((current) => {
       {
+        if (current.name === "Ryu") {
+          return <option key={current.name} selected>{current.name}</option>
+        }
         return <option key={current.name}>{current.name}</option>;
       }
     });
+  }
+
+  //grab the keys of a child object for comparison and state adjustments
+  function keyCheck(list, item) {
+    const moves = Object.keys(list)
+    if (moves.includes(item)) {
+      setNewImage(list[item].image)
+    } else {
+      setNewImage(list[moves[0]].image)
+      if (list === command) {
+        setNewCommand(list[moves[0]])
+      } else if (list === target) {
+        setNewTarget(list[moves[0]])
+      }
+    }
+
   }
 
   //find the first move in a child object in the character
@@ -469,10 +152,7 @@ export default function App() {
     return list.map((attack) => {
       return <option key={items[attack].name}>{attack}</option>
       })
-    } else {
-      return <option key='N/A'>N/A</option>
-    }
-    
+    }     
   }
 
   //character lookup function
@@ -497,13 +177,11 @@ export default function App() {
     let firstTargetCombo = ''
     let firstCommandNormal = ''
     if (currentAttacker.targets) {
-      const targetCombos = Object.keys(currentAttacker.targets)
-      firstTargetCombo = targetCombos[0]
+      firstTargetCombo = firstMove(currentAttacker.targets)
     }
 
     if (currentAttacker.commands) {
-      const commandNormals = Object.keys(currentAttacker.commands)
-      firstCommandNormal = commandNormals[0]
+      firstCommandNormal = firstMove(currentAttacker.commands)
     }
 
     if (attackChar.targets && attackChar.commands) {
@@ -544,20 +222,9 @@ export default function App() {
     setNewMenuState(menuText)
     setNewText("")
     if (menuText === 'command normals') {
-      const commandNormals = Object.keys(attackChar.commands)
-      if (!commandNormals.includes(command)) {
-        setNewImage(attackChar.commands[commandNormals[0]].image)
-      } else {
-        setNewImage(attackChar.commands[command].image)
-      }
+      keyCheck(attackChar.commands, command)
     } else if (menuText === 'target combos') {
-      //check here if target combo images are weird
-      const targetCombos = Object.keys(attackChar.targets)
-      if (!targetCombos.includes(target)) {
-        setNewImage(attackChar.targets[targetCombos[0]].image)
-      } else {
-        setNewImage(attackChar.targets[target].image)
-      }
+      keyCheck(attackChar.targets, target)
     }
     
   }
@@ -565,48 +232,19 @@ export default function App() {
   //Check if there needs to be target combos or command normals depending on the character
   function handleReset() {
     setNewAttackingState('unique')
-    let commandNormals = []
-    let targetCombos = []
-    if (attackChar.commands) {
-      commandNormals = Object.keys(attackChar.commands)
-    }
-    if (attackChar.targets) {
-      targetCombos = Object.keys(attackChar.targets)
-    }
-    
+
     if (attackChar.targets && attackChar.commands) {
       if (menuState === 'target combos') {
-        if (targetCombos.includes(target)) {
-          setNewImage(attackChar.targets[target].image)
-        } else {
-          setNewImage(attackChar.targets[targetCombos[0]].image)
-        }
+        keyCheck(attackChar.targets, target)
       } else if (menuState === 'command normals') {
-        if (commandNormals.includes(command)) {
-          setNewImage(attackChar.commands[command].image)
-        } else {
-          setNewImage(attackChar.commands[commandNormals[0]].image)
-        }
-        
+        keyCheck(attackChar.commands, command)
       }
     } else if (attackChar.targets) {
       setNewMenuState('target combos')
-      const targetCombos = Object.keys(attackChar.targets)
-      if (targetCombos.includes(target)) {
-        setNewImage(attackChar.targets[target].image)
-      } else {
-        setNewTarget(attackChar.targets[targetCombos[0]])
-        setNewImage(attackChar.targets[targetCombos[0]].image)
-      }
+      keyCheck(attackChar.targets, target)
     } else if (attackChar.commands) {
       setNewMenuState('command normals')
-      const commandNormals = Object.keys(attackChar.commands)
-      if (commandNormals.includes(command)) {
-        setNewImage(attackChar.commands[command].image)
-      } else {
-        setNewCommand(attackChar.commands[commandNormals[0]])
-        setNewImage(attackChar.commands[commandNormals[0]].image)
-      }
+      keyCheck(attackChar.commands, command)
     }
     setNewText("");
   }
