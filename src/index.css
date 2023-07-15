@@ -1,5 +1,5 @@
 .attacking-character {
-  width: 250px;
+  max-width: 300px;
   max-height: 300px;
 }
 
@@ -48,5 +48,6 @@ h3 {
 
 .float {
   width: 50%;
+  min-height: 800px;
   float: left;
 }
