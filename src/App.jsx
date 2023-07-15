@@ -14,7 +14,7 @@ export default function App() {
   const [target, setNewTarget] = useState("sHP>HK")
   const [attackingState, setNewAttackingState] = useState("normals")
   const [menuState, setNewMenuState] = useState("target combos")
-  const [newImage, setNewImage] = useState('./src/assets/ryu/sLP.png')
+  const [newImage, setNewImage] = useState('https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/sLP.png')
 
   //handle the radio option for direction for an input
   function directionSelect(e) {
