@@ -5,92 +5,92 @@
           name: "Standing Light Punch",
           startup: 4,
           onblock: -1,
-          image: "./src/assets/ryu/sLP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/sLP.png",
         },
         sMP: {
           name: "Standing Medium Punch",
           startup: 6,
           onblock: -1,
-          image: "./src/assets/ryu/sMP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/sMP.png",
         },
         sHP: {
           name: "Standing Heavy Punch",
           startup: 10,
           onblock: -2,
-          image: "./src/assets/ryu/sHP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/sHP.png",
         },
         sLK: {
           name: "Standing Light Kick",
           startup: 5,
           onblock: -4,
-          image: "./src/assets/ryu/sLK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/sLK.png",
         },
         sMK: {
           name: "Standing Medium Kick",
           startup: 9,
           onblock: -4,
-          image: "./src/assets/ryu/sMK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/sMK.png",
         },
         sHK: {
           name: "Standing Heavy Kick",
           startup: 12,
           onblock: 1,
-          image: "./src/assets/ryu/sHK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/sHK.png",
         },
         crLP: {
           name: "Crouching Light Punch",
           startup: 4,
           onblock: -1,
-          image: "./src/assets/ryu/crLP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/crLP.png",
         },
         crMP: {
           name: "Crouching Medium Punch",
           startup: 6,
           onblock: 0,
-          image: "./src/assets/ryu/crMP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/crMP.png",
         },
         crHP: {
           name: "Crouching Heavy Punch",
           startup: 9,
           onblock: -7,
-          image: "./src/assets/ryu/crHP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/crHP.png",
         },
         crLK: {
           name: "Crouching Light Kick",
           startup: 5,
           onblock: -3,
-          image: "./src/assets/ryu/crLK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/crLK.png",
         },
         crMK: {
           name: "Crouching Medium Kick",
           startup: 8,
           onblock: -6,
-          image: "./src/assets/ryu/crMK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/crMK.png",
         },
         crHK: {
           name: "Crouching Heavy Kick",
           startup: 9,
           onblock: -12,
-          image: "./src/assets/ryu/crHK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/crHK.png",
         },
         targets: {
           "sHP>HK": {
             name: "High Double Strike",
             startup: 19,
             onblock: -8,
-            image: "./src/assets/ryu/sHPHK.png"
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/sHPHK.png"
           },
           "sMP>LK": {
             name: "Fuwa Double Strike",
             startup: 11,
             onblock: -7,
-            image: "./src/assets/ryu/sMPLK.png"
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/sMPLK.png"
           },
           "sMP>LK>HK": {
             name: "Fuwa Triple Strike",
             startup: 27,
             onblock: -8,
-            image: "./src/assets/ryu/sMPLKHK.png"
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/sMPLKHK.png"
           }
         },
         commands: {
@@ -98,34 +98,34 @@
           name: "Collarbone Breaker",
           startup: 20,
           onblock: -3,
-          image: "./src/assets/ryu/fMP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/fMP.png",
         },
          fHP: {
           name: "Solar Plexus Strike",
           startup: 20,
           onblock: 1,
-          image: "./src/assets/ryu/fHP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/fHP.png",
         },
          bHP: {
           name: "Short Uppercut",
           startup: 7,
           onblock: -13,
-          image: "./src/assets/ryu/bHP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/bHP.png",
         },
          fHK: {
           name: "Whirlwind Kick",
           startup: 16,
           onblock: -4,
-          image: "./src/assets/ryu/fHK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/fHK.png",
         },
          bHK: {
           name: "Axe Kick",
           startup: 10,
           onblock: -4,
-          image: "./src/assets/ryu/bHK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/bHK.png",
         }
       },
-        profile: "./src/assets/ryu/profile.png"
+        profile: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ryu/profile.png"
       };
     
       const ken = {
@@ -134,95 +134,95 @@
           name: "Standing Light Punch",
           startup: 4,
           onblock: -1,
-          image: "./src/assets/ken/sLP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ken/sLP.png",
         },
         sMP: {
           name: "Standing Medium Punch",
           startup: 5,
           onblock: -2,
-          image: "./src/assets/ken/sMP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ken/sMP.png",
         },
         sHP: {
           name: "Standing Heavy Punch",
           startup: 10,
           onblock: -2,
-          image: "./src/assets/ken/sHP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ken/sHP.png",
         },
         sLK: {
           name: "Standing Light Kick",
           startup: 5,
           onblock: -2,
-          image: "./src/assets/ken/sLK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ken/sLK.png",
         },
         sMK: {
           name: "Standing Medium Kick",
           startup: 8,
           onblock: -5,
-          image: "./src/assets/ken/sMK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ken/sMK.png",
         },
         sHK: {
           name: "Standing Heavy Kick",
           startup: 12,
           onblock: -5,
-          image: "./src/assets/ken/sHK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ken/sHK.png",
         },
         crLP: {
           name: "Crouching Light Punch",
           startup: 4,
           onblock: -1,
-          image: "./src/assets/ken/crLP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ken/crLP.png",
         },
         crMP: {
           name: "Crouching Medium Punch",
           startup: 6,
           onblock: 0,
-          image: "./src/assets/ken/crMP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ken/crMP.png",
         },
         crHP: {
           name: "Crouching Heavy Punch",
           startup: 8,
           onblock: -10,
-          image: "./src/assets/ken/crHP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ken/crHP.png",
         },
         crLK: {
           name: "Crouching Light Kick",
           startup: 5,
           onblock: -3,
-          image: "./src/assets/ken/crLK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ken/crLK.png",
         },
         crMK: {
           name: "Crouching Medium Kick",
           startup: 7,
           onblock: -6,
-          image: "./src/assets/ken/crMK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ken/crMK.png",
         },
         crHK: {
           name: "Crouching Heavy Kick",
           startup: 8,
           onblock: -10,
-          image: "./src/assets/ken/crHK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ken/crHK.png",
         },
         targets: {
           "sMP>HP": {
             name: "Chin Buster",
             startup: 16,
             onblock: -14,
-            image: "./src/assets/ken/sMPHP.png"
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ken/sMPHP.png"
           },
           "sMK>MK": {
             name: "Triple Flash Kicks 1",
             startup: 19,
             onblock: -12,
-            image: "./src/assets/ken/sMKMK.png"
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ken/sMKMK.png"
           },
           "sMK>MK>HK": {
             name: "Triple Flash Kicks 2",
             startup: 32,
             onblock: -11,
-            image: "./src/assets/ken/sMKMKHK.png"
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ken/sMKMKHK.png"
           }
         },
-        profile: "./src/assets/ken/profile.png",
+        profile: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ken/profile.png",
       };
     
       const  chunli= {
@@ -231,73 +231,73 @@
           name: "Standing Light Punch",
           startup: 4,
           onblock: -3,
-          image: "./src/assets/chunli/sLP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/chunli/sLP.png",
         },
         sMP: {
           name: "Standing Medium Punch",
           startup: 5,
           onblock: 1,
-          image: "./src/assets/chunli/sMP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/chunli/sMP.png",
         },
         sHP: {
           name: "Standing Heavy Punch",
           startup: 13,
           onblock: -4,
-          image: "./src/assets/chunli/sHP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/chunli/sHP.png",
         },
         sLK: {
           name: "Standing Light Kick",
           startup: 5,
           onblock: -2,
-          image: "./src/assets/chunli/sLK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/chunli/sLK.png",
         },
         sMK: {
           name: "Standing Medium Kick",
           startup: 7,
           onblock: -2,
-          image: "./src/assets/chunli/sMK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/chunli/sMK.png",
         },
         sHK: {
           name: "Standing Heavy Kick",
           startup: 14,
           onblock: 0,
-          image: "./src/assets/chunli/sHK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/chunli/sHK.png",
         },
         crLP: {
           name: "Crouching Light Punch",
           startup: 4,
           onblock: -2,
-          image: "./src/assets/chunli/crLP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/chunli/crLP.png",
         },
         crMP: {
           name: "Crouching Medium Punch",
           startup: 6,
           onblock: -2,
-          image: "./src/assets/chunli/crMP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/chunli/crMP.png",
         },
         crHP: {
           name: "Crouching Heavy Punch",
           startup: 11,
           onblock: -3,
-          image: "./src/assets/chunli/crHP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/chunli/crHP.png",
         },
         crLK: {
           name: "Crouching Light Kick",
           startup: 4,
           onblock: -2,
-          image: "./src/assets/chunli/crLK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/chunli/crLK.png",
         },
         crMK: {
           name: "Crouching Medium Kick",
           startup: 7,
           onblock: -6,
-          image: "./src/assets/chunli/crMK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/chunli/crMK.png",
         },
         crHK: {
           name: "Crouching Heavy Kick",
           startup: 9,
           onblock: -7,
-          image: "./src/assets/chunli/crHK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/chunli/crHK.png",
         },
     
         commands: {
@@ -305,34 +305,34 @@
             name: "Swift Thrust",
             startup: 7,
             onblock: -3,
-            image: "src/assets/chunli/bMPorfMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/chunli/bMPorfMP.png",
         },
         "bHP": {
             name: "Hakkei",
             startup: 8,
             onblock: -1,
-            image: "src/assets/chunli/bHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/chunli/bHP.png",
         },
         "dfHP": {
             name: "Water Lotus Fist",
             startup: 21,
             onblock: -2,
-            image: "src/assets/chunli/dfHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/chunli/dfHP.png",
         },
         "fHK": {
             name: "Yokusen Kick",
             startup: 16,
             onblock: -4,
-            image: "src/assets/chunli/fHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/chunli/fHK.png",
         },
         "dfHK": {
             name: "Falling Crane",
             startup: 37,
             onblock: 5,
-            image: "src/assets/chunli/dfHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/chunli/dfHK.png",
         }
         },
-        profile: "./src/assets/chunli/profile.png"
+        profile: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/chunli/profile.png"
       }
     
       const blanka = {
@@ -341,113 +341,113 @@
           name: "Standing Light Punch",
           startup: 5,
           onblock: -3,
-          image: "./src/assets/blanka/sLP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/blanka/sLP.png",
         },
         sMP: {
           name: "Standing Medium Punch",
           startup: 10,
           onblock: -4,
-          image: "./src/assets/blanka/sMP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/blanka/sMP.png",
         },
         sHP: {
           name: "Standing Heavy Punch",
           startup: 10,
           onblock: -3,
-          image: "./src/assets/blanka/sHP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/blanka/sHP.png",
         },
         sLK: {
           name: "Standing Light Kick",
           startup: 4,
           onblock: -2,
-          image: "./src/assets/blanka/sLK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/blanka/sLK.png",
         },
         sMK: {
           name: "Standing Medium Kick",
           startup: 8,
           onblock: -2,
-          image: "./src/assets/blanka/sMK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/blanka/sMK.png",
         },
         sHK: {
           name: "Standing Heavy Kick",
           startup: 7,
           onblock: -4,
-          image: "./src/assets/blanka/sHK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/blanka/sHK.png",
         },
         crLP: {
           name: "Crouching Light Punch",
           startup: 6,
           onblock: -2,
-          image: "./src/assets/blanka/crLP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/blanka/crLP.png",
         },
         crMP: {
           name: "Crouching Medium Punch",
           startup: 9,
           onblock: -5,
-          image: "./src/assets/blanka/crMP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/blanka/crMP.png",
         },
         crHP: {
           name: "Crouching Heavy Punch",
           startup: 15,
           onblock: -5,
-          image: "./src/assets/blanka/crHP.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/blanka/crHP.png",
         },
         crLK: {
           name: "Crouching Light Kick",
           startup: 5,
           onblock: -3,
-          image: "./src/assets/blanka/crLK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/blanka/crLK.png",
         },
         crMK: {
           name: "Crouching Medium Kick",
           startup: 8,
           onblock: -5,
-          image: "./src/assets/blanka/crMK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/blanka/crMK.png",
         },
         crHK: {
           name: "Crouching Heavy Kick",
           startup: 11,
           onblock: -12,
-          image: "./src/assets/blanka/crHK.png",
+          image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/blanka/crHK.png",
         },
         commands: {
         fMP: {
         name: "Rock Crusher",
         startup: 20,
         onblock: -2,
-        image: "./src/assets/blanka/fMP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/blanka/fMP.png",
         },
         fMK: {
         name: "Double Knee Bombs",
         startup: 9,
         onblock: -1,
-        image: "./src/assets/blanka/fMK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/blanka/fMK.png",
         },
         bMK: {
         name: "Wild Edge",
         startup: 9,
         onblock: 2,
-        image: "./src/assets/blanka/bMK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/blanka/bMK.png",
         },
         fHP: {
         name: "Wild Nail",
         startup: 18,
         onblock: -15,
-        image: "./src/assets/blanka/fHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/blanka/fHP.png",
         },
         "dfHP (sp)": {
         name: "Amazon River Run (spaced)",
         startup: 99,
         onblock: -9,
-        image: "./src/assets/blanka/dfHP.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/blanka/dfHP.png"
         },
         "dfHP (cl)": {
         name: "Amazon River Run (close)",
         startup: 14,
         onblock: -18,
-        image: "./src/assets/blanka/dfHP.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/blanka/dfHP.png"
         }
     },
-      profile: "./src/assets/blanka/profile.png"
+      profile: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/blanka/profile.png"
         }
      
       const cammy = {
@@ -456,86 +456,86 @@
             name: "Standing Light Punch",
             startup: 4,
             onblock: -2,
-            image: "./src/assets/cammy/sLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/cammy/sLP.png",
           },
           sMP: {
             name: "Standing Medium Punch",
             startup: 6,
             onblock: -1,
-            image: "./src/assets/cammy/sMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/cammy/sMP.png",
           },
           sHP: {
             name: "Standing Heavy Punch",
             startup: 8,
             onblock: -3,
-            image: "./src/assets/cammy/sHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/cammy/sHP.png",
           },
           sLK: {
             name: "Standing Light Kick",
             startup: 5,
             onblock: -3,
-            image: "./src/assets/cammy/sLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/cammy/sLK.png",
           },
           sMK: {
             name: "Standing Medium Kick",
             startup: 8,
             onblock: -4,
-            image: "./src/assets/cammy/sMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/cammy/sMK.png",
           },
           sHK: {
             name: "Standing Heavy Kick",
             startup: 11,
             onblock: -4,
-            image: "./src/assets/cammy/sHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/cammy/sHK.png",
           },
           crLP: {
             name: "Crouching Light Punch",
             startup: 4,
             onblock: -2,
-            image: "./src/assets/cammy/crLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/cammy/crLP.png",
           },
           crMP: {
             name: "Crouching Medium Punch",
             startup: 7,
             onblock: -2,
-            image: "./src/assets/cammy/crMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/cammy/crMP.png",
           },
           crHP: {
             name: "Crouching Heavy Punch",
             startup: 10,
             onblock: 1,
-            image: "./src/assets/cammy/crHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/cammy/crHP.png",
           },
           crLK: {
             name: "Crouching Light Kick",
             startup: 5,
             onblock: -2,
-            image: "./src/assets/cammy/crLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/cammy/crLK.png",
           },
           crMK: {
             name: "Crouching Medium Kick",
             startup: 8,
             onblock: -5,
-            image: "./src/assets/cammy/crMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/cammy/crMK.png",
           },
           crHK: {
             name: "Crouching Heavy Kick",
             startup: 9,
             onblock: -10,
-            image: "./src/assets/cammy/crHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/cammy/crHK.png",
           },
           targets: {
         "bMP>HK": {
         name: "Lift Combination",
         startup: 14,
         onblock: -12,
-        image: "./src/assets/cammy/bMPHK.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/cammy/bMPHK.png"
         },
         "sHP>HK": {
         name: "Swing Combination",
         startup: 13,
         onblock: -12,
-        image: "./src/assets/cammy/sHPHK.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/cammy/sHPHK.png"
         }
             },
           commands: {
@@ -543,22 +543,22 @@
         name: "Lift Uppercut",
         startup: 5,
         onblock: -1,
-        image: "./src/assets/cammy/bMP.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/cammy/bMP.png"
         },
         bHK: {
         name: "Assault Blade",
         startup: 9,
         onblock: -7,
-        image: "./src/assets/cammy/bHK.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/cammy/bHK.png"
         },
         fHK: {
         name: "Delayed Ripper",
         startup: 18,
         onblock: -12,
-        image: "./src/assets/cammy/fHK.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/cammy/fHK.png"
         }
           },
-           profile: "./src/assets/cammy/profile.png"
+           profile: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/cammy/profile.png"
         }
     
         const deejay = {
@@ -567,110 +567,110 @@
             name: "Standing Light Punch",
             startup: 4,
             onblock: -1,
-            image: "./src/assets/deejay/sLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/sLP.png",
           },
           sMP: {
             name: "Standing Medium Punch",
             startup: 7,
             onblock: 2,
-            image: "./src/assets/deejay/sMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/sMP.png",
           },
           sHP: {
             name: "Standing Heavy Punch",
             startup: 9,
             onblock: -4,
-            image: "./src/assets/deejay/sHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/sHP.png",
           },
           sLK: {
             name: "Standing Light Kick",
             startup: 5,
             onblock: -2,
-            image: "./src/assets/deejay/sLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/sLK.png",
           },
           sMK: {
             name: "Standing Medium Kick",
             startup: 9,
             onblock: -1,
-            image: "./src/assets/deejay/sMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/sMK.png",
           },
           sHK: {
             name: "Standing Heavy Kick",
             startup: 12,
             onblock: -5,
-            image: "./src/assets/deejay/sHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/sHK.png",
           },
           crLP: {
             name: "Crouching Light Punch",
             startup: 5,
             onblock: -1,
-            image: "./src/assets/deejay/crLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/crLP.png",
           },
           crMP: {
             name: "Crouching Medium Punch",
             startup: 6,
             onblock: -1,
-            image: "./src/assets/deejay/crMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/crMP.png",
           },
           crHP: {
             name: "Crouching Heavy Punch",
             startup: 8,
             onblock: -2,
-            image: "./src/assets/deejay/crHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/crHP.png",
           },
           crLK: {
             name: "Crouching Light Kick",
             startup: 5,
             onblock: -2,
-            image: "./src/assets/deejay/crLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/crLK.png",
           },
           crMK: {
             name: "Crouching Medium Kick",
             startup: 8,
             onblock: -6,
-            image: "./src/assets/deejay/crMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/crMK.png",
           },
           crHK: {
             name: "Crouching Heavy Kick",
             startup: 14,
             onblock: -11,
-            image: "./src/assets/deejay/crHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/crHK.png",
           },
           targets: {
         "sLP>MK": {
         name: "Threebeat Combo 1",
         startup: 13,
         onblock: -3,
-        image: "./src/assets/deejay/sLPMK.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/sLPMK.png"
         },
         "sLP>MK>MK": {
         name: "Threebeat Combo 2",
         startup: 27,
         onblock: -8,
-        image: "./src/assets/deejay/sLPMKMK.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/sLPMKMK.png"
         },
         "sMP>HP": {
         name: "Dee Jay Special 1",
         startup: 18,
         onblock: -11,
-        image: "./src/assets/deejay/sHP.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/sHP.png"
         },
         "sMP>HP>HK": {
         name: "Dee Jay Special 2",
         startup: 31,
         onblock: -13,
-        image: "./src/assets/deejay/sHK.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/sHK.png"
         },
         "sMP>MP": {
         name: "Funky Dance 1",
         startup: 19,
         onblock: -2,
-        image: "./src/assets/deejay/sMPMP.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/sMPMP.png"
         },
         "sMP>MP>HP": {
         name: "Funky Dance 2",
         startup: 39,
         onblock: -8,
-        image: "./src/assets/deejay/sMPMPHP.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/sMPMPHP.png"
         },
       },
           commands: {
@@ -678,16 +678,16 @@
         name: "Sunrise Heel",
         startup: 19,
         onblock: 1,
-        image: "./src/assets/deejay/fMK.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/fMK.png"
         },
         bHK: {
         name: "Face Breaker",
         startup: 7,
         onblock: -5,
-        image: "./src/assets/deejay/bHK.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/bHK.png"
         },
           },
-          profile: "./src/assets/deejay/profile.png"
+          profile: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/deejay/profile.png"
         }
     
         const dhalsim = {
@@ -696,73 +696,73 @@
             name: "Standing Light Punch",
             startup: 4,
             onblock: -1,
-            image: "./src/assets/dhalsim/sLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/sLP.png",
           },
           sMP: {
             name: "Standing Medium Punch",
             startup: 14,
             onblock: -5,
-            image: "./src/assets/dhalsim/sMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/sMP.png",
           },
           sHP: {
             name: "Standing Heavy Punch",
             startup: 16,
             onblock: -11,
-            image: "./src/assets/dhalsim/sHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/sHP.png",
           },
           sLK: {
             name: "Standing Light Kick",
             startup: 9,
             onblock: -6,
-            image: "./src/assets/dhalsim/sLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/sLK.png",
           },
           sMK: {
             name: "Standing Medium Kick",
             startup: 12,
             onblock: -6,
-            image: "./src/assets/dhalsim/sMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/sMK.png",
           },
           sHK: {
             name: "Standing Heavy Kick",
             startup: 17,
             onblock: -6,
-            image: "./src/assets/dhalsim/sHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/sHK.png",
           },
           crLP: {
             name: "Crouching Light Punch",
             startup: 5,
             onblock: -1,
-            image: "./src/assets/dhalsim/crLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/crLP.png",
           },
           crMP: {
             name: "Crouching Medium Punch",
             startup: 12,
             onblock: -4,
-            image: "./src/assets/dhalsim/crMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/crMP.png",
           },
           crHP: {
             name: "Crouching Heavy Punch",
             startup: 19,
             onblock: -12,
-            image: "./src/assets/dhalsim/crHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/crHP.png",
           },
           crLK: {
             name: "Crouching Light Kick",
             startup: 4,
             onblock: -10,
-            image: "./src/assets/dhalsim/crLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/crLK.png",
           },
           crMK: {
             name: "Crouching Medium Kick",
             startup: 10,
             onblock: -10,
-            image: "./src/assets/dhalsim/crMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/crMK.png",
           },
           crHK: {
             name: "Crouching Heavy Kick",
             startup: 12,
             onblock: -16,
-            image: "./src/assets/dhalsim/crHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/crHK.png",
           },
       
           commands: {
@@ -770,52 +770,52 @@
         name: "Yoga Uppercut",
         startup: 8,
         onblock: -3,
-        image: "./src/assets/dhalsim/bMP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/bMP.png",
         },
         bHP: {
         name: "Yoga Lance",
         startup: 14,
         onblock: -16,
-        image: "./src/assets/dhalsim/bHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/bHP.png",
         },
         bMK: {
         name: "Divine Kick",
         startup: 7,
         onblock: 0,
-        image: "./src/assets/dhalsim/bMK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/bMK.png",
         },
         bHK: {
         name: "Yoga Mountain",
         startup: 14,
         onblock: -9,
-        image: "./src/assets/dhalsim/bHK.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/bHK.png"
         },
         dbHP: {
         name: "Nirvana Punch",
         startup: 10,
         onblock: -3,
-        image: "./src/assets/dhalsim/dbHP.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/dbHP.png"
         },
         dbLK: {
         name: "Agile Kick",
         startup: 5,
         onblock: -5,
-        image: "./src/assets/dhalsim/dbLK.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/dbLK.png"
         },
         dbMK: {
         name: "Thrust Kick",
         startup: 8,
         onblock: -7,
-        image: "./src/assets/dhalsim/dbMK.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/dbMK.png"
         },
         dbHK: {
         name: "Karma Kick",
         startup: 9,
         onblock: -7,
-        image: "./src/assets/dhalsim/dbHK.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/dbHK.png"
         },
           },
-          profile: "./src/assets/dhalsim/profile.png"
+          profile: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/dhalsim/profile.png"
         }
     
         const ehonda = {
@@ -824,86 +824,86 @@
             name: "Standing Light Punch",
             startup: 5,
             onblock: -1,
-            image: "./src/assets/ehonda/sLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ehonda/sLP.png",
           },
           sMP: {
             name: "Standing Medium Punch",
             startup: 10,
             onblock: 1,
-            image: "./src/assets/ehonda/sMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ehonda/sMP.png",
           },
           sHP: {
             name: "Standing Heavy Punch",
             startup: 8,
             onblock: -6,
-            image: "./src/assets/ehonda/sHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ehonda/sHP.png",
           },
           sLK: {
             name: "Standing Light Kick",
             startup: 4,
             onblock: -1,
-            image: "./src/assets/ehonda/sLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ehonda/sLK.png",
           },
           sMK: {
             name: "Standing Medium Kick",
             startup: 10,
             onblock: -3,
-            image: "./src/assets/ehonda/sMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ehonda/sMK.png",
           },
           sHK: {
             name: "Standing Heavy Kick",
             startup: 8,
             onblock: -5,
-            image: "./src/assets/ehonda/sHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ehonda/sHK.png",
           },
           crLP: {
             name: "Crouching Light Punch",
             startup: 4,
             onblock: -1,
-            image: "./src/assets/ehonda/crLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ehonda/crLP.png",
           },
           crMP: {
             name: "Crouching Medium Punch",
             startup: 8,
             onblock: -3,
-            image: "./src/assets/ehonda/crMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ehonda/crMP.png",
           },
           crHP: {
             name: "Crouching Heavy Punch",
             startup: 11,
             onblock: -3,
-            image: "./src/assets/ehonda/crHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ehonda/crHP.png",
           },
           crLK: {
             name: "Crouching Light Kick",
             startup: 5,
             onblock: -3,
-            image: "./src/assets/ehonda/crLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ehonda/crLK.png",
           },
           crMK: {
             name: "Crouching Medium Kick",
             startup: 9,
             onblock: -2,
-            image: "./src/assets/ehonda/crMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ehonda/crMK.png",
           },
           crHK: {
             name: "Crouching Heavy Kick",
             startup: 11,
             onblock: -10,
-            image: "./src/assets/ehonda/crHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ehonda/crHK.png",
           },
           targets: {
         "sLP>MP": {
         name: "Double Slaps",
         startup: 9,
         onblock: -10,
-        image: "./src/assets/ehonda/sMP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ehonda/sMP.png",
         },
         "sMP>dfHK": {
         name: "Toko Shizume",
         startup: 32,
         onblock: -3,
-        image: "./src/assets/ehonda/dfHK.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ehonda/dfHK.png"
         },
             },
       
@@ -912,17 +912,17 @@
         name: "Harai Kick",
         startup: 14,
         onblock: -5,
-        image: "./src/assets/ehonda/fHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ehonda/fHK.png",
         },
         dfHK: {
         name: "Power Stomp",
         startup: 22,
         onblock: -3,
-        image: "./src/assets/ehonda/dfHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ehonda/dfHK.png",
         },
           },
         
-          profile: "./src/assets/ehonda/profile.png"
+          profile: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/ehonda/profile.png"
         }
     
         const guile = {
@@ -931,98 +931,98 @@
             name: "Standing Light Punch",
             startup: 5,
             onblock: -2,
-            image: "./src/assets/guile/sLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/sLP.png",
           },
           sMP: {
             name: "Standing Medium Punch",
             startup: 7,
             onblock: 0,
-            image: "./src/assets/guile/sMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/sMP.png",
           },
           sHP: {
             name: "Standing Heavy Punch",
             startup: 7,
             onblock: -6,
-            image: "./src/assets/guile/sHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/sHP.png",
           },
           sLK: {
             name: "Standing Light Kick",
             startup: 5,
             onblock: -1,
-            image: "./src/assets/guile/sLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/sLK.png",
           },
           sMK: {
             name: "Standing Medium Kick",
             startup: 7,
             onblock: -4,
-            image: "./src/assets/guile/sMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/sMK.png",
           },
           sHK: {
             name: "Standing Heavy Kick",
             startup: 13,
             onblock: -4,
-            image: "./src/assets/guile/sHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/sHK.png",
           },
           crLP: {
             name: "Crouching Light Punch",
             startup: 4,
             onblock: -2,
-            image: "./src/assets/guile/crLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/crLP.png",
           },
           crMP: {
             name: "Crouching Medium Punch",
             startup: 6,
             onblock: -2,
-            image: "./src/assets/guile/crMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/crMP.png",
           },
           crHP: {
             name: "Crouching Heavy Punch",
             startup: 9,
             onblock: -9,
-            image: "./src/assets/guile/crHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/crHP.png",
           },
           crLK: {
             name: "Crouching Light Kick",
             startup: 5,
             onblock: -5,
-            image: "./src/assets/guile/crLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/crLK.png",
           },
           crMK: {
             name: "Crouching Medium Kick",
             startup: 5,
             onblock: -5,
-            image: "./src/assets/guile/crMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/crMK.png",
           },
           crHK: {
             name: "Crouching Heavy Kick",
             startup: 9,
             onblock: -12,
-            image: "./src/assets/guile/crHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/crHK.png",
           },
           targets: {
         "sMP>bHP": {
         name: "Recoil Cannon",
         startup: 23,
         onblock: -9,
-        image: "./src/assets/guile/sMPbHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/sMPbHP.png",
         },
         "crMP>crMP": {
         name: "Double Shot",
         startup: 18,
         onblock: -6,
-        image: "./src/assets/guile/crMPcrMP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/crMPcrMP.png",
         },
         "crMK>fMP": {
         name: "Drake Fang",
         startup: 28,
         onblock: -5,
-        image: "./src/assets/guile/fMP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/fMP.png",
         },
         "crHK>dfHK": {
         name: "Phantom Cutter",
         startup: 19,
         onblock: -12,
-        image: "./src/assets/guile/dfHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/dfHK.png",
         },
             },
       
@@ -1031,47 +1031,47 @@
         name: "Full Bullet Magnum",
         startup: 19,
         onblock: -3,
-        image: "./src/assets/guile/fMP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/fMP.png",
         },
         fHP: {
         name: "Spinning Back Knuckle",
         startup: 16,
         onblock: 3,
-        image: "./src/assets/guile/fHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/fHP.png",
         },
         bHP: {
         name: "Burning Straight",
         startup: 9,
         onblock: -4,
-        image: "./src/assets/guile/bHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/bHP.png",
         },
         bLK: {
         name: "Knee Bazooka",
         startup: 8,
         onblock: -4,
-        image: "./src/assets/guile/bLK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/bLK.png",
         },
         "bMK or fMK": {
         name: "Rolling Sobat",
         startup: 11,
         onblock: -6,
-        image: "./src/assets/guile/bMKorfMK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/bMKorfMK.png",
         },
         fHK: {
         name: "Reverse Spin Kick",
         startup: 17,
         onblock: -8,
-        image: "./src/assets/guile/fHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/fHK.png",
         },
         dfHK: {
         name: "Guile High Kick",
         startup: 10,
         onblock: -9,
-        image: "./src/assets/guile/dfHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/dfHK.png",
         },
           },
         
-          profile: "./src/assets/guile/profile.png"
+          profile: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/guile/profile.png"
         }
     
         const jamie = {
@@ -1080,122 +1080,122 @@
             name: "Standing Light Punch (Drink Level 0)",
             startup: 5,
             onblock: 0,
-            image: "./src/assets/jamie/sLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/sLP.png",
           },
           sMP: {
             name: "Standing Medium Punch",
             startup: 8,
             onblock: 1,
-            image: "./src/assets/jamie/sMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/sMP.png",
           },
           sHP: {
             name: "Standing Heavy Punch",
             startup: 5,
             onblock: -3,
-            image: "./src/assets/jamie/sHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/sHP.png",
           },
           sLK: {
             name: "Standing Light Kick",
             startup: 5,
             onblock: -1,
-            image: "./src/assets/jamie/sLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/sLK.png",
           },
           sMK: {
             name: "Standing Medium Kick",
             startup: 10,
             onblock: -3,
-            image: "./src/assets/jamie/sMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/sMK.png",
           },
           sHK: {
             name: "Standing Heavy Kick",
             startup: 15,
             onblock: -5,
-            image: "./src/assets/jamie/sHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/sHK.png",
           },
           crLP: {
             name: "Crouching Light Punch",
             startup: 4,
             onblock: -1,
-            image: "./src/assets/jamie/crLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/crLP.png",
           },
           crMP: {
             name: "Crouching Medium Punch",
             startup: 6,
             onblock: 0,
-            image: "./src/assets/jamie/crMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/crMP.png",
           },
           crHP: {
             name: "Crouching Heavy Punch",
             startup: 9,
             onblock: -8,
-            image: "./src/assets/jamie/crHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/crHP.png",
           },
           crLK: {
             name: "Crouching Light Kick",
             startup: 5,
             onblock: -3,
-            image: "./src/assets/jamie/crLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/crLK.png",
           },
           crMK: {
             name: "Crouching Medium Kick",
             startup: 7,
             onblock: -6,
-            image: "./src/assets/jamie/crMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/crMK.png",
           },
           crHK: {
             name: "Crouching Heavy Kick",
             startup: 9,
             onblock: -10,
-            image: "./src/assets/jamie/crHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/crHK.png",
           },
           targets: {
         "crHK>HK": {
         name: "Phantom Sway",
         startup: 12,
         onblock: -28,
-        image: "src/assets/jamie/crHKHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/crHKHK.png",
         },
         "sLP>LK": {
         name: "Bitter Strikes 1",
         startup: 11,
         onblock: -8,
-        image: "src/assets/jamie/sLPLK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/sLPLK.png",
         },
         "sLP>LK>MP": {
         name: "Bitter Strikes 2",
         startup: 19,
         onblock: -10,
-        image: "src/assets/jamie/sLPLKMP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/sLPLKMP.png",
         },
         "fMK>MK": {
         name: "Full Moon Kick",
         startup: 15,
         onblock: -14,
-        image: "src/assets/jamie/fMKMK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/fMKMK.png",
         },
         "bHP>HP": {
         name: "Intoxicated Assault 1",
         startup: 39,
         onblock: -9,
-        image: "src/assets/jamie/bHPHP.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/bHPHP.png"
         },
         "bHP>HP>HK": {
         name: "Intoxicated Assault 2",
         startup: 60,
         onblock: -20,
-        image: "src/assets/jamie/bHPHPHK.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/bHPHPHK.png"
         },
         "fHK>bHK>P (close)": {
         name: "Ransui Haze Headbutt",
         startup: 42,
         onblock: -12,
-        image: "src/assets/jamie/fHKbHKPclose.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/fHKbHKPclose.png"
         },
         "fHK>bHK>P (mid)": {
         name: "Ransui Haze Triple Fist",
         startup: 55,
         onblock: -9,
-        image: "src/assets/jamie/fHKbHKPmid.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/fHKbHKPmid.png"
         },
             },
       
@@ -1204,34 +1204,34 @@
         name: "Tensei Kick",
         startup: 9,
         onblock: -8,
-        image: "src/assets/jamie/crKK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/crKK.png",
         },
         fMK: {
         name: "Falling Star Kick",
         startup: 22,
         onblock: -3,
-        image: "src/assets/jamie/fMK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/fMK.png",
         },
         bHP: {
         name: "Hermit's Elbow",
         startup: 18,
         onblock: -3,
-        image: "src/assets/jamie/bHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/bHP.png",
         },
         fHK: {
         name: "Senei Kick",
         startup: 16,
         onblock: -3,
-        image: "src/assets/jamie/fHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/fHK.png",
         },
         "sLP (DL1+)": {
         name: "Standing Light Punch (Drink Level 1+)",
         startup: 5,
         onblock: -3,
-        image: "src/assets/jamie/sLPDL1.png"
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/sLPDL1.png"
         },
           },
-          profile: "./src/assets/jamie/profile.png"
+          profile: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jamie/profile.png"
         }
     
         const jp = {
@@ -1240,98 +1240,98 @@
             name: "Standing Light Punch",
             startup: 6,
             onblock: -2,
-            image: "./src/assets/jp/sLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/sLP.png",
           },
           sMP: {
             name: "Standing Medium Punch",
             startup: 12,
             onblock: -6,
-            image: "./src/assets/jp/sMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/sMP.png",
           },
           sHP: {
             name: "Standing Heavy Punch",
             startup: 12,
             onblock: -3,
-            image: "./src/assets/jp/sHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/sHP.png",
           },
           sLK: {
             name: "Standing Light Kick",
             startup: 5,
             onblock: -2,
-            image: "./src/assets/jp/sLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/sLK.png",
           },
           sMK: {
             name: "Standing Medium Kick",
             startup: 8,
             onblock: -3,
-            image: "./src/assets/jp/sMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/sMK.png",
           },
           sHK: {
             name: "Standing Heavy Kick",
             startup: 12,
             onblock: 2,
-            image: "./src/assets/jp/sHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/sHK.png",
           },
           crLP: {
             name: "Crouching Light Punch",
             startup: 4,
             onblock: -1,
-            image: "./src/assets/jp/crLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/crLP.png",
           },
           crMP: {
             name: "Crouching Medium Punch",
             startup: 7,
             onblock: -2,
-            image: "./src/assets/jp/crMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/crMP.png",
           },
           crHP: {
             name: "Crouching Heavy Punch",
             startup: 9,
             onblock: -6,
-            image: "./src/assets/jp/crHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/crHP.png",
           },
           crLK: {
             name: "Crouching Light Kick",
             startup: 6,
             onblock: -2,
-            image: "./src/assets/jp/crLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/crLK.png",
           },
           crMK: {
             name: "Crouching Medium Kick",
             startup: 9,
             onblock: -3,
-            image: "./src/assets/jp/crMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/crMK.png",
           },
           crHK: {
             name: "Crouching Heavy Kick",
             startup: 10,
             onblock: -6,
-            image: "./src/assets/jp/crHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/crHK.png",
           },
           targets: {
         "bMP>MP": {
         name: "Grom Strelka",
         startup: 18,
         onblock: -6,
-        image: "src/assets/jp/bMPMP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/bMPMP.png",
         },
         "sHK>HP": {
         name: "Zilant",
         startup: 32,
         onblock: -3,
-        image: "src/assets/jp/sHKHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/sHKHP.png",
         },
         "sHK>HP>HP": {
         name: "Zilant High",
         startup: 53,
         onblock: -4,
-        image: "src/assets/jp/sHKHPHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/sHKHPHP.png",
         },
         "sHK>HP>HK": {
         name: "Zilant Low",
         startup: 53,
         onblock: -4,
-        image: "src/assets/jp/sHKHPHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/sHKHPHK.png",
         },
             },
       
@@ -1340,29 +1340,29 @@
         name: "Grom Strelka",
         startup: 8,
         onblock: -1,
-        image: "src/assets/jp/bmP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/bmP.png",
         },
         fMK: {
         name: "Guillotinna",
         startup: 22,
         onblock: -3,
-        image: "src/assets/jp/fMK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/fMK.png",
         },
         dfHP: {
         name: "Malice",
         startup: 16,
         onblock: -14,
-        image: "src/assets/jp/dfHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/dfHP.png",
         },
         fHK: {
         name: "Bylina",
         startup: 11,
         onblock: -5,
-        image: "src/assets/jp/fHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/fHK.png",
         },
           },
         
-          profile: "src/assets/jp/profile.png"
+          profile: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/jp/profile.png"
         }
     
         const juri = {
@@ -1371,86 +1371,86 @@
             name: "Standing Light Punch",
             startup: 4,
             onblock: -2,
-            image: "./src/assets/juri/sLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/juri/sLP.png",
           },
           sMP: {
             name: "Standing Medium Punch",
             startup: 6,
             onblock: 2,
-            image: "./src/assets/juri/sMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/juri/sMP.png",
           },
           sHP: {
             name: "Standing Heavy Punch",
             startup: 10,
             onblock: -5,
-            image: "./src/assets/juri/sHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/juri/sHP.png",
           },
           sLK: {
             name: "Standing Light Kick",
             startup: 5,
             onblock: -5,
-            image: "./src/assets/juri/sLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/juri/sLK.png",
           },
           sMK: {
             name: "Standing Medium Kick",
             startup: 5,
             onblock: -4,
-            image: "./src/assets/juri/sMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/juri/sMK.png",
           },
           sHK: {
             name: "Standing Heavy Kick",
             startup: 17,
             onblock: -3,
-            image: "./src/assets/juri/sHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/juri/sHK.png",
           },
           crLP: {
             name: "Crouching Light Punch",
             startup: 4,
             onblock: -1,
-            image: "./src/assets/juri/crLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/juri/crLP.png",
           },
           crMP: {
             name: "Crouching Medium Punch",
             startup: 6,
             onblock: -2,
-            image: "./src/assets/juri/crMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/juri/crMP.png",
           },
           crHP: {
             name: "Crouching Heavy Punch",
             startup: 8,
             onblock: -11,
-            image: "./src/assets/juri/crHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/juri/crHP.png",
           },
           crLK: {
             name: "Crouching Light Kick",
             startup: 5,
             onblock: -1,
-            image: "./src/assets/juri/crLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/juri/crLK.png",
           },
           crMK: {
             name: "Crouching Medium Kick",
             startup: 8,
             onblock: -6,
-            image: "./src/assets/juri/crMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/juri/crMK.png",
           },
           crHK: {
             name: "Crouching Heavy Kick",
             startup: 10,
             onblock: -11,
-            image: "./src/assets/juri/crHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/juri/crHK.png",
           },
           targets: {
         "sMP>bHP": {
         name: "Death Crest 1",
         startup: 18,
         onblock: -3,
-        image: "./src/assets/juri/sMPbHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/juri/sMPbHP.png",
         },
         "sMP>bHP>HP": {
         name: "Death Crest 2",
         startup: 30,
         onblock: -16,
-        image: "./src/assets/juri/sMPbHPHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/juri/sMPbHPHP.png",
         },
             },
       
@@ -1459,29 +1459,29 @@
         name: "Kyosesho",
         startup: 8,
         onblock: -3,
-        image: "./src/assets/juri/fMP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/juri/fMP.png",
         },
         fMK: {
         name: "Senkai Kick",
         startup: 21,
         onblock: -2,
-        image: "./src/assets/juri/fMK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/juri/fMK.png",
         },
         fHP: {
         name: "Renko Kicks",
         startup: 15,
         onblock: -4,
-        image: "./src/assets/juri/fHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/juri/fHP.png",
         },
         bHK: {
         name: "Korenzan",
         startup: 10,
         onblock: -6,
-        image: "./src/assets/juri/bHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/juri/bHK.png",
         },
           },
         
-          profile: "./src/assets/juri/profile.png"
+          profile: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/juri/profile.png"
         }
     
         const kimberly = {
@@ -1490,116 +1490,116 @@
             name: "Standing Light Punch",
             startup: 5,
             onblock: -2,
-            image: "./src/assets/kimberly/sLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/sLP.png",
           },
           sMP: {
             name: "Standing Medium Punch",
             startup: 6,
             onblock: -2,
-            image: "./src/assets/kimberly/sMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/sMP.png",
           },
           sHP: {
             name: "Standing Heavy Punch",
             startup: 9,
             onblock: -4,
-            image: "./src/assets/kimberly/sHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/sHP.png",
           },
           sLK: {
             name: "Standing Light Kick",
             startup: 5,
             onblock: -3,
-            image: "./src/assets/kimberly/sLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/sLK.png",
           },
           sMK: {
             name: "Standing Medium Kick",
             startup: 8,
             onblock: -4,
-            image: "./src/assets/kimberly/sMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/sMK.png",
           },
           sHK: {
             name: "Standing Heavy Kick",
             startup: 12,
             onblock: 2,
-            image: "./src/assets/kimberly/sHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/sHK.png",
           },
           crLP: {
             name: "Crouching Light Punch",
             startup: 4,
             onblock: -2,
-            image: "./src/assets/kimberly/crLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/crLP.png",
           },
           crMP: {
             name: "Crouching Medium Punch",
             startup: 6,
             onblock: -1,
-            image: "./src/assets/kimberly/crMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/crMP.png",
           },
           crHP: {
             name: "Crouching Heavy Punch",
             startup: 8,
             onblock: -2,
-            image: "./src/assets/kimberly/crHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/crHP.png",
           },
           crLK: {
             name: "Crouching Light Kick",
             startup: 5,
             onblock: -2,
-            image: "./src/assets/kimberly/crLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/crLK.png",
           },
           crMK: {
             name: "Crouching Medium Kick",
             startup: 7,
             onblock: 1,
-            image: "./src/assets/kimberly/crMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/crMK.png",
           },
           crHK: {
             name: "Crouching Heavy Kick",
             startup: 8,
             onblock: -10,
-            image: "./src/assets/kimberly/crHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/crHK.png",
           },
           targets: {
         "sLP>MP": {
         name: "Bushin Prism Strikes 1",
         startup: 99,
         onblock: -6,
-        image: "./src/assets/kimberly/sMP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/sMP.png",
         },
         "sLP>MP>HP": {
         name: "Bushin Prism Strikes 2",
         startup: 99,
         onblock: -10,
-        image: "./src/assets/kimberly/sLPMPHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/sLPMPHP.png",
         },
         "sLP>MP>HP>HK": {
         name: "Bushin Prism Strikes 3",
         startup: 99,
         onblock: -12,
-        image: "./src/assets/kimberly/sLPMPHPHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/sLPMPHPHK.png",
         },
         "sLP>MP>crHP": {
         name: "Bushin Hellchain 1",
         startup: 99,
         onblock: -10,
-        image: "./src/assets/kimberly/sLPMPcrHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/sLPMPcrHP.png",
         },
         "sLP>MP>crHP>HK": {
         name: "Bushin Hellchain 2",
         startup: 99,
         onblock: -12,
-        image: "./src/assets/kimberly/sLPMPcrHPHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/sLPMPcrHPHK.png",
         },
         "sLP>MP>crHP>crHK": {
         name: "Bushin Hellchain Throw",
         startup: 99,
         onblock: -12,
-        image: "./src/assets/kimberly/sLPMPcrHPcrHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/sLPMPcrHPcrHK.png",
         },
         "sMP>HP": {
         name: "Bushin Tiger Fangs",
         startup: 99,
         onblock: -12,
-        image: "./src/assets/kimberly/sLPMPHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/sLPMPHP.png",
         },
             },
       
@@ -1608,29 +1608,29 @@
         name: "Water Slicer Slide (spaced)",
         startup: 99,
         onblock: 0,
-        image: "./src/assets/kimberly/dfMK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/dfMK.png",
         },
         "dfMK (cl)": {
         name: "Water Slicer Slide (close)",
         startup: 11,
         onblock: -9,
-        image: "./src/assets/kimberly/dfMK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/dfMK.png",
         },
         bHK: {
         name: "Windmill Kick",
         startup: 22,
         onblock: -3,
-        image: "./src/assets/kimberly/bHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/bHK.png",
         },
         fHK: {
         name: "Hisen Kick",
         startup: 27,
         onblock: -3,
-        image: "./src/assets/kimberly/fHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/fHK.png",
         },
           },
         
-          profile: "./src/assets/kimberly/profile.png"
+          profile: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/kimberly/profile.png"
         }
     
         const lily = {
@@ -1639,86 +1639,86 @@
             name: "Standing Light Punch",
             startup: 6,
             onblock: -1,
-            image: "./src/assets/lily/sLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/lily/sLP.png",
           },
           sMP: {
             name: "Standing Medium Punch",
             startup: 9,
             onblock: -4,
-            image: "./src/assets/lily/sMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/lily/sMP.png",
           },
           sHP: {
             name: "Standing Heavy Punch",
             startup: 11,
             onblock: -5,
-            image: "./src/assets/lily/sHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/lily/sHP.png",
           },
           sLK: {
             name: "Standing Light Kick",
             startup: 4,
             onblock: -4,
-            image: "./src/assets/lily/sLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/lily/sLK.png",
           },
           sMK: {
             name: "Standing Medium Kick",
             startup: 7,
             onblock: -1,
-            image: "./src/assets/lily/sMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/lily/sMK.png",
           },
           sHK: {
             name: "Standing Heavy Kick",
             startup: 14,
             onblock: -5,
-            image: "./src/assets/lily/sHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/lily/sHK.png",
           },
           crLP: {
             name: "Crouching Light Punch",
             startup: 6,
             onblock: -1,
-            image: "./src/assets/lily/crLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/lily/crLP.png",
           },
           crMP: {
             name: "Crouching Medium Punch",
             startup: 8,
             onblock: -3,
-            image: "./src/assets/lily/crMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/lily/crMP.png",
           },
           crHP: {
             name: "Crouching Heavy Punch",
             startup: 10,
             onblock: -2,
-            image: "./src/assets/lily/crHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/lily/crHP.png",
           },
           crLK: {
             name: "Crouching Light Kick",
             startup: 5,
             onblock: -2,
-            image: "./src/assets/lily/crLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/lily/crLK.png",
           },
           crMK: {
             name: "Crouching Medium Kick",
             startup: 10,
             onblock: -5,
-            image: "./src/assets/lily/crMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/lily/crMK.png",
           },
           crHK: {
             name: "Crouching Heavy Kick",
             startup: 11,
             onblock: -12,
-            image: "./src/assets/lily/crHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/lily/crHK.png",
           },
           targets: {
         "fHP>HP": {
         name: "Desert Storm 1",
         startup: 99,
         onblock: -9,
-        image: "./src/assets/lily/fHPHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/lily/fHPHP.png",
         },
         "fHP>HP>HP": {
         name: "Desert Storm 2",
         startup: 99,
         onblock: -26,
-        image: "./src/assets/lily/fHPHPHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/lily/fHPHPHP.png",
         },
             },
       
@@ -1727,23 +1727,23 @@
         name: "Desert Storm",
         startup: 18,
         onblock: -5,
-        image: "./src/assets/lily/fHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/lily/fHP.png",
         },
         dfHP: {
         name: "Ridge Thrust",
         startup: 25,
         onblock: -3,
-        image: "./src/assets/lily/dfHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/lily/dfHP.png",
         },
         bHP: {
         name: "Horn Breaker",
         startup: 14,
         onblock: -2,
-        image: "./src/assets/lily/bHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/lily/bHP.png",
         },
           },
         
-          profile: "./src/assets/lily/profile.png"
+          profile: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/lily/profile.png"
         }
     
         const luke = {
@@ -1752,116 +1752,116 @@
             name: "Standing Light Punch",
             startup: 7,
             onblock: -3,
-            image: "./src/assets/luke/sLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/sLP.png",
           },
           sMP: {
             name: "Standing Medium Punch",
             startup: 9,
             onblock: -3,
-            image: "./src/assets/luke/sMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/sMP.png",
           },
           sHP: {
             name: "Standing Heavy Punch",
             startup: 10,
             onblock: -6,
-            image: "./src/assets/luke/sHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/sHP.png",
           },
           sLK: {
             name: "Standing Light Kick",
             startup: 5,
             onblock: -2,
-            image: "./src/assets/luke/sLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/sLK.png",
           },
           sMK: {
             name: "Standing Medium Kick",
             startup: 7,
             onblock: -3,
-            image: "./src/assets/luke/sMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/sMK.png",
           },
           sHK: {
             name: "Standing Heavy Kick",
             startup: 10,
             onblock: -5,
-            image: "./src/assets/luke/sHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/sHK.png",
           },
           crLP: {
             name: "Crouching Light Punch",
             startup: 4,
             onblock: -2,
-            image: "./src/assets/luke/crLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/crLP.png",
           },
           crMP: {
             name: "Crouching Medium Punch",
             startup: 6,
             onblock: 1,
-            image: "./src/assets/luke/crMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/crMP.png",
           },
           crHP: {
             name: "Crouching Heavy Punch",
             startup: 7,
             onblock: -13,
-            image: "./src/assets/luke/crHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/crHP.png",
           },
           crLK: {
             name: "Crouching Light Kick",
             startup: 5,
             onblock: -5,
-            image: "./src/assets/luke/crLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/crLK.png",
           },
           crMK: {
             name: "Crouching Medium Kick",
             startup: 8,
             onblock: -6,
-            image: "./src/assets/luke/crMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/crMK.png",
           },
           crHK: {
             name: "Crouching Heavy Kick",
             startup: 10,
             onblock: -9,
-            image: "./src/assets/luke/crHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/crHK.png",
           },
           targets: {
         "sLP>MP": {
         name: "Triple Impact",
         startup: 99,
         onblock: -9,
-        image: "./src/assets/luke/sMP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/sMP.png",
         },
         "sLP>MP>HP": {
         name: "Triple Impact 2",
         startup: 99,
         onblock: -14,
-        image: "./src/assets/luke/sHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/sHP.png",
         },
         "sMP>MP": {
         name: "Snapback Combo",
         startup: 99,
         onblock: -8,
-        image: "./src/assets/luke/sMPMP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/sMPMP.png",
         },
         "sMP>MP>MP": {
         name: "Snapback Combo 2",
         startup: 99,
         onblock: -14,
-        image: "./src/assets/luke/sMPMPMP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/sMPMPMP.png",
         },
         "sMP>MP>MP>MP": {
         name: "Snapback Combo 3",
         startup: 99,
         onblock: -12,
-        image: "./src/assets/luke/sMPMPMPMP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/sMPMPMPMP.png",
         },
         "fHP>fHP": {
         name: "Double Impact",
         startup: 99,
         onblock: -19,
-        image: "./src/assets/luke/fHPfHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/fHPfHP.png",
         },
         "crMK>crHP": {
         name: "Nose Breaker",
         startup: 99,
         onblock: -8,
-        image: "./src/assets/luke/crMKcrHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/crMKcrHP.png",
         },
       },
           commands: {
@@ -1869,29 +1869,29 @@
         name: "Rawhide",
         startup: 21,
         onblock: -3,
-        image: "./src/assets/luke/fMP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/fMP.png",
         },
         bHP: {
         name: "Suppressor",
         startup: 16,
         onblock: -3,
-        image: "./src/assets/luke/bHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/bHP.png",
         },
         bHK: {
         name: "Outlaw Kick",
         startup: 12,
         onblock: -5,
-        image: "./src/assets/luke/bHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/bHK.png",
         },
         fHP: {
         name: "Brutal Spike",
         startup: 16,
         onblock: -3,
-        image: "./src/assets/luke/fHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/fHP.png",
         },
           },
         
-          profile: "./src/assets/luke/profile.png"
+          profile: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/luke/profile.png"
         }
     
         const manon = {
@@ -1900,98 +1900,98 @@
             name: "Standing Light Punch",
             startup: 4,
             onblock: -1,
-            image: "./src/assets/manon/sLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/manon/sLP.png",
           },
           sMP: {
             name: "Standing Medium Punch",
             startup: 7,
             onblock: -1,
-            image: "./src/assets/manon/sMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/manon/sMP.png",
           },
           sHP: {
             name: "Standing Heavy Punch",
             startup: 10,
             onblock: -3,
-            image: "./src/assets/manon/sHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/manon/sHP.png",
           },
           sLK: {
             name: "Standing Light Kick",
             startup: 5,
             onblock: -2,
-            image: "./src/assets/manon/sLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/manon/sLK.png",
           },
           sMK: {
             name: "Standing Medium Kick",
             startup: 10,
             onblock: -5,
-            image: "./src/assets/manon/sMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/manon/sMK.png",
           },
           sHK: {
             name: "Standing Heavy Kick",
             startup: 15,
             onblock: -6,
-            image: "./src/assets/manon/sHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/manon/sHK.png",
           },
           crLP: {
             name: "Crouching Light Punch",
             startup: 4,
             onblock: -2,
-            image: "./src/assets/manon/crLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/manon/crLP.png",
           },
           crMP: {
             name: "Crouching Medium Punch",
             startup: 7,
             onblock: -1,
-            image: "./src/assets/manon/crMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/manon/crMP.png",
           },
           crHP: {
             name: "Crouching Heavy Punch",
             startup: 10,
             onblock: -8,
-            image: "./src/assets/manon/crHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/manon/crHP.png",
           },
           crLK: {
             name: "Crouching Light Kick",
             startup: 5,
             onblock: -5,
-            image: "./src/assets/manon/crLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/manon/crLK.png",
           },
           crMK: {
             name: "Crouching Medium Kick",
             startup: 8,
             onblock: -2,
-            image: "./src/assets/manon/crMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/manon/crMK.png",
           },
           crHK: {
             name: "Crouching Heavy Kick",
             startup: 11,
             onblock: -12,
-            image: "./src/assets/manon/crHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/manon/crHK.png",
           },
           targets: {
         "sMP>MK": {
         name: "À Terre",
         startup: 99,
         onblock: -5,
-        image: "./src/assets/manon/sMPMK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/manon/sMPMK.png",
         },
         "bMK>MK": {
         name: "En Haut",
         startup: 99,
         onblock: -11,
-        image: "./src/assets/manon/bMKMK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/manon/bMKMK.png",
         },
         "sHP>HP": {
         name: "Temps Lié",
         startup: 99,
         onblock: -8,
-        image: "./src/assets/manon/sHPHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/manon/sHPHP.png",
         },
         "crHP>HP": {
         name: "Allongé",
         startup: 99,
         onblock: -10,
-        image: "./src/assets/manon/crHPHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/manon/crHPHP.png",
         },
             },
       
@@ -2000,23 +2000,23 @@
         name: "En Haut",
         startup: 10,
         onblock: -3,
-        image: "./src/assets/manon/bMK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/manon/bMK.png",
         },
         bHP: {
         name: "Révérence",
         startup: 8,
         onblock: -3,
-        image: "./src/assets/manon/bHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/manon/bHP.png",
         },
         dfHK: {
         name: "Tomoe Derriére",
         startup: 11,
         onblock: -23,
-        image: "./src/assets/manon/dfHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/manon/dfHK.png",
         },
           },
         
-          profile: "./src/assets/manon/profile.png"
+          profile: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/manon/profile.png"
         }
     
         const marisa = {
@@ -2025,116 +2025,116 @@
             name: "Standing Light Punch",
             startup: 6,
             onblock: -2,
-            image: "./src/assets/marisa/sLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/sLP.png",
           },
           sMP: {
             name: "Standing Medium Punch",
             startup: 7,
             onblock: -1,
-            image: "./src/assets/marisa/sMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/sMP.png",
           },
           sHP: {
             name: "Standing Heavy Punch",
             startup: 12,
             onblock: -3,
-            image: "./src/assets/marisa/sHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/sHP.png",
           },
           sLK: {
             name: "Standing Light Kick",
             startup: 6,
             onblock: -2,
-            image: "./src/assets/marisa/sLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/sLK.png",
           },
           sMK: {
             name: "Standing Medium Kick",
             startup: 11,
             onblock: -2,
-            image: "./src/assets/marisa/sMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/sMK.png",
           },
           sHK: {
             name: "Standing Heavy Kick",
             startup: 17,
             onblock: -3,
-            image: "./src/assets/marisa/sHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/sHK.png",
           },
           crLP: {
             name: "Crouching Light Punch",
             startup: 4,
             onblock: -3,
-            image: "./src/assets/marisa/crLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/crLP.png",
           },
           crMP: {
             name: "Crouching Medium Punch",
             startup: 8,
             onblock: -2,
-            image: "./src/assets/marisa/crMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/crMP.png",
           },
           crHP: {
             name: "Crouching Heavy Punch",
             startup: 8,
             onblock: -6,
-            image: "./src/assets/marisa/crHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/crHP.png",
           },
           crLK: {
             name: "Crouching Light Kick",
             startup: 5,
             onblock: -3,
-            image: "./src/assets/marisa/crLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/crLK.png",
           },
           crMK: {
             name: "Crouching Medium Kick",
             startup: 9,
             onblock: -2,
-            image: "./src/assets/marisa/crMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/crMK.png",
           },
           crHK: {
             name: "Crouching Heavy Kick",
             startup: 12,
             onblock: -11,
-            image: "./src/assets/marisa/crHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/crHK.png",
           },
           targets: {
         "sLP>LP": {
         name: "Light Two Hitter",
         startup: 99,
         onblock: -6,
-        image: "./src/assets/marisa/sLPLP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/sLPLP.png",
         },
         "sMP>MP": {
         name: "Medium Two Hitter",
         startup: 99,
         onblock: -8,
-        image: "./src/assets/marisa/sMPMP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/sMPMP.png",
         },
         "sHP>HP": {
         name: "Heavy Two Hitter",
         startup: 99,
         onblock: 2,
-        image: "./src/assets/marisa/sHPHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/sHPHP.png",
         },
         "fMP>HP": {
         name: "Novacule Swipe",
         startup: 99,
         onblock: -12,
-        image: "./src/assets/marisa/fMPHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/fMPHP.png",
         },
         "fMP>HK": {
         name: "Novacule Thrust",
         startup: 99,
         onblock: -10,
-        image: "./src/assets/marisa/fMPHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/fMPHK.png",
         },
         "dfHP>dfHP": {
         name: "Malleus Breaker",
         startup: 99,
         onblock: -12,
-        image: "./src/assets/marisa/dfHPdfHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/dfHPdfHP.png",
         },
         "fHK>fHK": {
         name: "Falx Crusher",
         startup: 99,
         onblock: -12,
-        image: "./src/assets/marisa/fHKfHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/fHKfHK.png",
         },
             },
       
@@ -2143,71 +2143,71 @@
         name: "Standing Heavy Punch (Hold)",
         startup: 16,
         onblock: 3,
-        image: "./src/assets/marisa/sHPhold.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/sHPhold.png",
         },
         "s[HK]": {
         name: "Standing Heavy Kick (Hold)",
         startup: 27,
         onblock: 1,
-        image: "./src/assets/marisa/sHKhold.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/sHKhold.png",
         },
         "cr[HP]": {
         name: "Crouching Heavy Punch (Hold)",
         startup: 21,
         onblock: -5,
-        image: "./src/assets/marisa/crHPhold.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/crHPhold.png",
         },
         "cr[HK]": {
         name: "Crouching Heavy Kick (Hold)",
         startup: 23,
         onblock: -6,
-        image: "./src/assets/marisa/crHKhold.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/crHKhold.png",
         },
         fMP: {
         name: "Novacula",
         startup: 10,
         onblock: -3,
-        image: "./src/assets/marisa/fMP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/fMP.png",
         },
         bHP: {
         name: "Magna Bunker",
         startup: 8,
         onblock: -1,
-        image: "./src/assets/marisa/bHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/bHP.png",
         },
         "b[HP]": {
         name: "Magna Bunker (Hold)",
         startup: 20,
         onblock: 4,
-        image: "./src/assets/marisa/bHPhold.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/bHPhold.png",
         },
         dfHP: {
         name: "Malleus",
         startup: 21,
         onblock: -3,
-        image: "./src/assets/marisa/dfHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/dfHP.png",
         },
         "df[HP]": {
         name: "Malleus (Hold)",
         startup: 31,
         onblock: 2,
-        image: "./src/assets/marisa/dfHPhold.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/dfHPhold.png",
         },
         fHK: {
         name: "Knee",
         startup: 14,
         onblock: -3,
-        image: "./src/assets/marisa/fHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/fHK.png",
         },
         "f[HK]": {
         name: "Knee (Hold)",
         startup: 27,
         onblock: 3,
-        image: "./src/assets/marisa/fHKhold.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/fHKhold.png",
         },
           },
         
-          profile: "./src/assets/marisa/profile.png"
+          profile: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/marisa/profile.png"
         }
     
         const zangief = {
@@ -2216,98 +2216,98 @@
             name: "Standing Light Punch",
             startup: 7,
             onblock: 2,
-            image: "./src/assets/zangief/sLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/sLP.png",
           },
           sMP: {
             name: "Standing Medium Punch",
             startup: 9,
             onblock: -2,
-            image: "./src/assets/zangief/sMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/sMP.png",
           },
           sHP: {
             name: "Standing Heavy Punch",
             startup: 16,
             onblock: -3,
-            image: "./src/assets/zangief/sHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/sHP.png",
           },
           sLK: {
             name: "Standing Light Kick",
             startup: 7,
             onblock: -4,
-            image: "./src/assets/zangief/sLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/sLK.png",
           },
           sMK: {
             name: "Standing Medium Kick",
             startup: 10,
             onblock: -4,
-            image: "./src/assets/zangief/sMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/sMK.png",
           },
           sHK: {
             name: "Standing Heavy Kick",
             startup: 13,
             onblock: 1,
-            image: "./src/assets/zangief/sHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/sHK.png",
           },
           crLP: {
             name: "Crouching Light Punch",
             startup: 6,
             onblock: 1,
-            image: "./src/assets/zangief/crLP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/crLP.png",
           },
           crMP: {
             name: "Crouching Medium Punch",
             startup: 8,
             onblock: -1,
-            image: "./src/assets/zangief/crMP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/crMP.png",
           },
           crHP: {
             name: "Crouching Heavy Punch",
             startup: 12,
             onblock: -19,
-            image: "./src/assets/zangief/crHP.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/crHP.png",
           },
           crLK: {
             name: "Crouching Light Kick",
             startup: 4,
             onblock: -3,
-            image: "./src/assets/zangief/crLK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/crLK.png",
           },
           crMK: {
             name: "Crouching Medium Kick",
             startup: 9,
             onblock: -2,
-            image: "./src/assets/zangief/crMK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/crMK.png",
           },
           crHK: {
             name: "Crouching Heavy Kick",
             startup: 12,
             onblock: -13,
-            image: "./src/assets/zangief/crHK.png",
+            image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/crHK.png",
           },
           targets: {
         "sMP>MP": {
         name: "Machine Gun Chops 1",
         startup: 99,
         onblock: -6,
-        image: "./src/assets/zangief/sMPMP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/sMPMP.png",
         },
         "sMP>MP>MP": {
         name: "Machine Gun Chops 2",
         startup: 99,
         onblock: -17,
-        image: "./src/assets/zangief/sMPMPMP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/sMPMPMP.png",
         },
         "ddMK>MK": {
         name: "Power Stomps 2",
         startup: 99,
         onblock: -4,
-        image: "./src/assets/zangief/ddMKMK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/ddMKMK.png",
         },
         "ddMK>MK>MK": {
         name: "Power Stomps 3",
         startup: 99,
         onblock: -10,
-        image: "./src/assets/zangief/ddMKMKMK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/ddMKMKMK.png",
         },
             },
       
@@ -2316,53 +2316,53 @@
         name: "Standing Heavy Punch (Hold)",
         startup: 32,
         onblock: 3,
-        image: "./src/assets/zangief/sHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/sHP.png",
         },
         dfMP: {
         name: "Hellstab",
         startup: 7,
         onblock: -3,
-        image: "./src/assets/zangief/dfMP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/dfMP.png",
         },
         "fMK (sp)": {
         name: "Knee Hammer (Spaced)",
         startup: 99,
         onblock: 2,
-        image: "./src/assets/zangief/fMK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/fMK.png",
         },
         "fMK (cl)": {
         name: "Knee Hammer (Close)",
         startup: 14,
         onblock: -4,
-        image: "./src/assets/zangief/fMK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/fMK.png",
         },
         fHP: {
         name: "Headbutt",
         startup: 14,
         onblock: 4,
-        image: "./src/assets/zangief/fHP.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/fHP.png",
         },
         fHK: {
         name: "Cyclone Wheel Kick",
         startup: 22,
         onblock: -12,
-        image: "./src/assets/zangief/fHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/fHK.png",
         },
         dfHK: {
         name: "Smetana Dropkick",
         startup: 16,
         onblock: -18,
-        image: "./src/assets/zangief/dfHK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/dfHK.png",
         },
         ddMK: {
         name: "Power Stomp",
         startup: 9,
         onblock: -3,
-        image: "./src/assets/zangief/ddMK.png",
+        image: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/ddMK.png",
         },
           },
         
-          profile: "./src/assets/zangief/profile.png"
+          profile: "https://raw.githubusercontent.com/b-nobles/frame-data/main/src/assets/zangief/profile.png"
         }
 
 export const characterList = [blanka, cammy, chunli, deejay, dhalsim, ehonda, guile, jamie, jp, juri, ken, kimberly, lily, luke, manon, marisa, ryu, zangief]
