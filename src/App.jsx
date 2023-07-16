@@ -16,7 +16,7 @@ export default function App() {
   const [target, setNewTarget] = useState("sHP>HK")
   const [attackingState, setNewAttackingState] = useState("normals")
   const [menuState, setNewMenuState] = useState("target combos")
-  const [newImage, setNewImage] = useState('/src/assets/ryu/sLP.png')
+  const [newImage, setNewImage] = useState('./assets/ryu/sLP.png')
 
   //character lookup function
   function lookUpCharacter(func, val) {
