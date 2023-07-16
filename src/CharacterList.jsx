@@ -5,7 +5,7 @@
           name: "Standing Light Punch",
           startup: 4,
           onblock: -1,
-          image: "./assets/ryu/sLP.png",
+          image: "./src/assets/ryu/sLP.png",
         },
         sMP: {
           name: "Standing Medium Punch",
