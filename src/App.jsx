@@ -2,6 +2,7 @@ import { useState } from "react";
 import { characterList } from "./CharacterList";
 import { AttackingCharacter } from "../components/AttackingCharacter"
 import { BlockingCharacter } from "../components/BlockingCharacter";
+import { RyusLP } from "./assets/ryu/sLP.png"
 
 export default function App() {
   const [activeButton, setActiveButton] = useState("LP")
@@ -16,7 +17,7 @@ export default function App() {
   const [target, setNewTarget] = useState("sHP>HK")
   const [attackingState, setNewAttackingState] = useState("normals")
   const [menuState, setNewMenuState] = useState("target combos")
-  const [newImage, setNewImage] = useState('./assets/ryu/sLP.png')
+  const [newImage, setNewImage] = useState(RyusLP)
 
   //character lookup function
   function lookUpCharacter(func, val) {
