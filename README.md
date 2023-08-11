@@ -9,7 +9,7 @@ Below is a list of the terminology used for this application:
 'LK': Light Kick / 'MK': Medium Kick / 'HK': Heavy Kick
 's': Standing
 'cr': Crouching
-'>': Chain the next input
+' >': Chain the next input
 'b': Back / 'd': Down / 'f': Forward
 
 ## How to Use
