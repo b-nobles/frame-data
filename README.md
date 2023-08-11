@@ -5,12 +5,12 @@ This web application is used to take an attacking move from Fighting Game Street
 ## Legend
 
 Below is a list of the terminology used for this application:
-LP: Light Punch / MP: Medium Punch / HP: Heavy Punch
-LK: Light Kick / MK: Medium Kick / HK: Heavy Kick
-s: Standing
-cr: Crouching
->: Chain the next input
-b: Back / d: Down / f: Forward
+'LP': Light Punch / 'MP': Medium Punch / 'HP': Heavy Punch
+'LK': Light Kick / 'MK': Medium Kick / 'HK': Heavy Kick
+'s': Standing
+'cr': Crouching
+'>': Chain the next input
+'b': Back / 'd': Down / 'f': Forward
 
 ## How to Use
 
