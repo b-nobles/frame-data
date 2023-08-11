@@ -1,6 +1,6 @@
 # Frame Finder
 
-This web application is used to take an attacking move from Fighting Game Street Fighter 6 and then compare it against a blocking character's moveset to create a list of attacks that will punish that attack on block.
+This web application is used to take an attacking move from Fighting Game Street Fighter 6 and then compare it against a blocking character's moveset to create a list of attacks that will punish that attack on block. This was created at the suggestion of a friend group.
 
 ## Legend
 
